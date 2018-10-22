@@ -1,0 +1,181 @@
+<Response><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://ce.corp.com/xi/eServices/ContractAccount">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <con:MT_GetContractAccountListResponse>
+         <MessageHeader>
+            <!--Optional:-->
+            <ID schemeID="?" schemeAgencyID="?" schemeAgencySchemeAgencyID="?">?</ID>
+            <!--Optional:-->
+            <UUID schemeID="?" schemeAgencyID="?">?</UUID>
+            <!--Optional:-->
+            <ReferenceID schemeID="?" schemeAgencyID="?" schemeAgencySchemeAgencyID="?">?</ReferenceID>
+            <!--Optional:-->
+            <ReferenceUUID schemeID="?" schemeAgencyID="?">?</ReferenceUUID>
+            <CreationDateTime>?</CreationDateTime>
+            <!--Optional:-->
+            <TestDataIndicator>?</TestDataIndicator>
+            <!--Optional:-->
+            <ReconciliationIndicator>?</ReconciliationIndicator>
+            <!--Optional:-->
+            <SenderBusinessSystemID>?</SenderBusinessSystemID>
+            <!--Optional:-->
+            <RecipientBusinessSystemID>?</RecipientBusinessSystemID>
+            <!--Optional:-->
+            <SenderParty>
+               <!--Optional:-->
+               <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+               <!--Zero or more repetitions:-->
+               <StandardID schemeAgencyID="?">?</StandardID>
+               <!--Optional:-->
+               <ContactPerson>
+                  <!--Optional:-->
+                  <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                  <!--0 to 4 repetitions:-->
+                  <OrganisationFormattedName>?</OrganisationFormattedName>
+                  <!--0 to 4 repetitions:-->
+                  <PersonFormattedName>?</PersonFormattedName>
+                  <!--Zero or more repetitions:-->
+                  <PhoneNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </PhoneNumber>
+                  <!--Zero or more repetitions:-->
+                  <FaxNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </FaxNumber>
+                  <!--Zero or more repetitions:-->
+                  <EmailURI schemeID="?">?</EmailURI>
+               </ContactPerson>
+            </SenderParty>
+            <!--Zero or more repetitions:-->
+            <RecipientParty>
+               <!--Optional:-->
+               <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+               <!--Zero or more repetitions:-->
+               <StandardID schemeAgencyID="?">?</StandardID>
+               <!--Optional:-->
+               <ContactPerson>
+                  <!--Optional:-->
+                  <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                  <!--0 to 4 repetitions:-->
+                  <OrganisationFormattedName>?</OrganisationFormattedName>
+                  <!--0 to 4 repetitions:-->
+                  <PersonFormattedName>?</PersonFormattedName>
+                  <!--Zero or more repetitions:-->
+                  <PhoneNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </PhoneNumber>
+                  <!--Zero or more repetitions:-->
+                  <FaxNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </FaxNumber>
+                  <!--Zero or more repetitions:-->
+                  <EmailURI schemeID="?">?</EmailURI>
+               </ContactPerson>
+            </RecipientParty>
+            <!--Zero or more repetitions:-->
+            <BusinessScope>
+               <TypeCode listID="?" listVersionID="?" listAgencyID="?" listAgencySchemeID="?" listAgencySchemeAgencyID="?">?</TypeCode>
+               <!--Optional:-->
+               <InstanceID schemeID="?" schemeAgencyID="?">?</InstanceID>
+               <!--Optional:-->
+               <ID schemeID="?" schemeAgencyID="?">?</ID>
+            </BusinessScope>
+         </MessageHeader>
+         <MessageStatusInfo>
+            <MessageStatus>?</MessageStatus>
+            <!--Optional:-->
+            <StatusDescription>?</StatusDescription>
+         </MessageStatusInfo>
+         <!--Zero or more repetitions:-->
+         <ContractAccountList>
+            <ContractAccountNo>?</ContractAccountNo>
+            <!--Optional:-->
+            <Address>
+               <!--Optional:-->
+               <HouseNumber>?</HouseNumber>
+               <!--Optional:-->
+               <StreetName>?</StreetName>
+               <!--Optional:-->
+               <Apartment>?</Apartment>
+               <!--Optional:-->
+               <City>?</City>
+               <!--Optional:-->
+               <State>?</State>
+               <!--Optional:-->
+               <Zip>?</Zip>
+            </Address>
+            <!--Optional:-->
+            <MoveInDate>?</MoveInDate>
+            <!--Optional:-->
+            <MoveOutDate>?</MoveOutDate>
+            <ServiceType>?</ServiceType>
+            <!--Optional:-->
+            <eBill>?</eBill>
+            <!--Optional:-->
+            <PaperBill>?</PaperBill>
+            <!--Optional:-->
+            <ThirdPartyBill>?</ThirdPartyBill>
+            <!--Optional:-->
+            <CardID>?</CardID>
+            <!--Optional:-->
+            <AccountID>?</AccountID>
+            <!--Optional:-->
+            <TotalBalance>?</TotalBalance>
+            <!--Optional:-->
+            <PastDueAmount>?</PastDueAmount>
+            <!--Optional:-->
+            <DueDate>?</DueDate>
+            <!--Optional:-->
+            <IsBankrupt>?</IsBankrupt>
+            <!--Optional:-->
+            <AutoPayEnroll>?</AutoPayEnroll>
+         </ContractAccountList>
+         <!--Optional:-->
+         <BpTotalBalance>?</BpTotalBalance>
+      </con:MT_GetContractAccountListResponse>
+   </soapenv:Body>
+</soapenv:Envelope></Response>
